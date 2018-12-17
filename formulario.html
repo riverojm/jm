@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de registro</title>
+</head>
+
+<form id="contacto" name="contacto" action="Gato detective.html" method="POST">
+
+Nombre completo <input name="nombre" type="text" id="nombre"size="30" autofocus maxlength="50">
+<br>
+<br>
+Correo electronico <input name="email" type="text" id="email" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" size="25" maxlength="50" >
+<br>
+<br>
+Contraseña <input name="contraseña" type="password" id="contraseña">
+<br>
+<br>
+Edad <input name="edad" type="text" id="edad">
+<br>
+<br>
+Sexo
+<br>
+<br>
+<input type="radio" name="hombre" value="1"id="hombre" />
+Hombre
+<br>
+<input type="radio" name="mujer" value="2"id="mujer"/> Mujer
+<br>
+<br>
+<input type="submit" value="Enviar formulario" onclick="enviar()" />
+<input type="Reset" value="Borrar datos">
+</form>
+</table>
+</html>
