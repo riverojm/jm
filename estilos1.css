@@ -63,3 +63,14 @@
 	list-style: none;
 }
 
+.formu{
+	float: right;
+}
+
+.container .formu{
+	text-align: center;
+}
+
+.texto{
+	text-align: center;
+}
