@@ -41,7 +41,7 @@
 	position: absolute;
 	background: #333333
 	width: 120%;
-	visivility: hiden;
+	visibility: hiden;
 	opacity: 0;
 	transition: opacity 1s;
 }
@@ -54,8 +54,30 @@
 	text-decoration: none;
 }
 
+.submenu2{
+    position: absolute;
+    background: #333333
+    width: 120%;
+    visibility: hiden;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.submenu2{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans'
+	text-decoration: none;
+}
+
 .menu li:hover .submenu{
-	visivility: visible;
+	visibility: visible;
+	opacity: 1;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
 	opacity: 1;
 }
 
